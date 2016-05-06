@@ -1,0 +1,20 @@
+title: Jekyll Boilerplate
+description: Jekyll Boilerplate
+baseurl: ""
+source: "source"
+destination: "public"
+
+exclude: [
+  "node_modules",
+  "sass",
+  "js",
+  "gulpfile.js",
+  "package.json"
+]
+include: [
+  "_pages"
+]
+keep_files: ["css", "js", "images", "fonts"]
+
+# Build settings
+markdown: redcarpet
